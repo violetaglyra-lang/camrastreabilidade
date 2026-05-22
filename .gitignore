@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Dados e modelos (arquivos pesados — não subir no GitHub)
+dados/bruto/
+dados/processado/images/
+dados/processado/labels/
+modelos/
+resultados/frames_erro/
+
+# Manter apenas a estrutura de pastas
+!dados/bruto/.gitkeep
+!dados/processado/images/train/.gitkeep
+!dados/processado/images/val/.gitkeep
+!dados/processado/images/test/.gitkeep
+!dados/processado/labels/train/.gitkeep
+!dados/processado/labels/val/.gitkeep
+!dados/processado/labels/test/.gitkeep
+!modelos/.gitkeep
+!resultados/.gitkeep
+
+# Temporários
+*.tmp
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
